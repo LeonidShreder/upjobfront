@@ -1,0 +1,57 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "**Run:**",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch --display-error-details"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "antd": "^3.8.4",
+    "autobind-decorator": "^2.1.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "create-react-scripts": "^0.1.6",
+    "css-loader": "^1.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.9.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^3.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "google-libphonenumber": "^3.1.10",
+    "lodash": "^4.17.10",
+    "query-string": "^6.1.0",
+    "react-collapsy": "0.0.9",
+    "react-router-dom": "^4.3.1",
+    "react-slick": "^0.23.1",
+    "react-svg-loader": "^2.1.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/kv039.python/upjobFE.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/kv039.python/upjobFE/issues"
+  },
+  "homepage": "https://gitlab.com/kv039.python/upjobFE#README"
+}

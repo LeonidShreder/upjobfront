@@ -1,0 +1,38 @@
+.tableEditAboutCompany {
+    font-weight: bold;
+    margin-bottom: 50px;
+    border: 1px solid #716b6b;
+}
+
+.titleEditAbout > td {
+    width: 17%;
+    font-size: 1.6em;
+    height: 50px;
+    background: #8a97a0;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid #716b6b;
+}
+
+.titleEditAbout > td:not(:first-of-type) {
+    border-left: 1px solid #fff;
+}
+
+.bodyEditAbout > td {
+    width: 17%;
+    height: 100px;
+    border: 1px solid #716b6b;
+}
+
+.bodyEditAbout > td > input[type="text"] {
+    height: 100%;
+    font-size: 14px;
+    text-align: center;
+    border: none;
+}
+.bodyEditAbout > td > textarea {
+    text-align: center;
+    font-size: 14px;
+    border: none;
+}

@@ -1,0 +1,113 @@
+.card_slot {
+    width: 450px;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.card_header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.CardVacancyOrEmployee {
+    margin: 7px;
+}
+
+.name_company {
+    font-size: 2em;
+}
+
+.block_personal_inform {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.block_personal_inform .entry-list {
+    flex-grow: 2;
+}
+
+.block_personal_inform .entry {
+    display: flex;
+}
+
+.block_personal_inform .entry .key {
+    width: 50%;
+}
+
+.block_personal_inform .entry .value {
+    width: 50%;
+}
+
+.skills-badges-container {
+    white-space: normal;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    /*padding: 10px;*/
+}
+
+.Badge.badge-technology {
+    padding: 10px 15px;
+    font-size: 80%;
+    margin: 5px;
+    border-radius: 15px;
+}
+
+
+.vertical-center-modal {
+  text-align: center;
+  white-space: nowrap;
+}
+
+.vertical-center-modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  width: 0;
+}
+
+.vertical-center-modal .ant-modal {
+  display: inline-block;
+  vertical-align: middle;
+  top: 0;
+  text-align: left;
+}
+
+.offer-modal-body__summary-section {
+    display: flex;
+}
+.offer-modal-body .description-container {
+    max-width: 100%;
+    white-space: normal;
+}
+
+.offer-modal-body__summary-section ul {
+    padding-left: 10px;
+}
+
+.offer-modal-body__summary-section li {
+    list-style: none;
+    font-size: 1.2em;
+    display: flex;
+}
+.offer-modal-body__summary-section li b {
+    min-width: 120px;
+}
+
+.CompanyAvatar {
+    display: inline-block;
+    margin: 5px 20px 5px 10px;
+}
+
+.CompanyAvatar img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid rgba(85, 97, 112, 0.75);
+}
+
